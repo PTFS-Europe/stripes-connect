@@ -55,6 +55,8 @@
     "prop-types": "^15.5.10",
     "query-string": "^5.0.0",
     "react-redux": "^5.0.2",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.3",
     "redux": "^3.6.0",
     "uuid": "^3.0.1"
   },
