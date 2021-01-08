@@ -27,7 +27,7 @@ export default function mutationEpics(resource) {
         path,
         name,
       };
-      console.log('execute refresh', action);
+
       return { ...action, meta, type: 'REFRESH' };
     }),
   ));
