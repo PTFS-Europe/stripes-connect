@@ -33,6 +33,7 @@
     "@babel/preset-react": "^7.7.4",
     "@babel/register": "^7.7.7",
     "@folio/eslint-config-stripes": "^5.1.0",
+    "abort-controller": "^3.0.0",
     "babel-eslint": "^10.0.1",
     "chai": "^4.0.2",
     "core-js": "^3.6.1",
@@ -46,22 +47,23 @@
     "node-fetch": "^2.6.1",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
+    "redux-observable": "^1.2.0",
     "redux-thunk": "^2.1.0",
     "regenerator-runtime": "^0.13.3",
-    "abort-controller": "^3.0.0"
+    "rxjs": "^6.6.3"
   },
   "dependencies": {
     "lodash": "^4.17.11",
     "prop-types": "^15.5.10",
     "query-string": "^5.0.0",
     "react-redux": "^5.0.2",
-    "redux-observable": "^1.2.0",
-    "rxjs": "^6.6.3",
     "redux": "^3.6.0",
     "uuid": "^3.0.1"
   },
   "peerDependencies": {
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "rxjs": "*",
+    "redux-observable": "*"
   }
 }
